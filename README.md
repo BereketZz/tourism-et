@@ -35,3 +35,4 @@
     
   <li>Start the development server:</li>
   <pre><code>npm run dev</code></pre>
+<h2>Live Site:  <a href="https://tourism-et.netlify.app/">here</a></h2>
