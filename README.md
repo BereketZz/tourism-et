@@ -19,13 +19,13 @@
     <li>React (with React Router)</li>
     <li>Tailwind CSS</li>
     <li>Vite (for development and build tooling)</li>
-    <li>JavaScript (ES6+)</li>
+    <li>TypeScript</li>
   </ul>
 
   <h2>How to Run the Project</h2>
   <ol>
     <li>Clone the repository:</li>
-    <pre><code>git clone https://github.com/your-repo/tourism-et.git</code></pre>
+    <pre><code>git clone https://github.com/BereketZz/tourism-et.git</code></pre>
     
   <li>Navigate into the project directory:</li>
   <pre><code>cd tourism-et</code></pre>
