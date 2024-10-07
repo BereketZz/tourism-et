@@ -19,7 +19,7 @@ function HomePage() {
   {/* Content centered */}
   <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
     {/* Title */}
-    <h1 className="text-4xl md:text-8xl font-bold leading-tight">
+    <h1 className="text-4xl md:text-7xl font-bold leading-tight">
       Journey with Confidence <br />
       <span className="text-pear">Explore</span> Ethiopia
     </h1>
