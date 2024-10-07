@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+ <h1>Tourism ET Assignment Website</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h2>Overview</h2>
+  <p>
+    The <strong>Tourism ET Assignment Website</strong> is a responsive tourism platform designed to highlight the beauty and culture of Ethiopia. Built using modern frontend technologies, this website provides a seamless experience across mobile, tablet, and desktop devices. It includes a dynamic navigation bar, an engaging landing page, and various sections to explore services, projects, blogs, and information about the Ethiopian tourism sector.
+  </p>
 
-Currently, two official plugins are available:
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Responsive Design:</strong> The website adapts to mobile, tablet, and desktop screen sizes for an optimal user experience.</li>
+    <li><strong>Navigation Bar:</strong> A menu with links to the home page, about us, services, projects, and blogs, along with an interactive dropdown on smaller screens.</li>
+    <li><strong>Landing Page:</strong> A visually appealing home page with a hero section, buttons, and a call-to-action.</li>
+    <li><strong>About Us Section:</strong> Information about the company's goals and services in Ethiopian tourism.</li>
+    <li><strong>Styled Components:</strong> A clean and modern design using Tailwind CSS for styling and React for dynamic components.</li>
+  </ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>React (with React Router)</li>
+    <li>Tailwind CSS</li>
+    <li>Vite (for development and build tooling)</li>
+    <li>TypeScript</li>
+  </ul>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+  <h2>How to Run the Project</h2>
+  <ol>
+    <li>Clone the repository:</li>
+    <pre><code>git clone https://github.com/BereketZz/tourism-et.git</code></pre>
+    
+  <li>Navigate into the project directory:</li>
+  <pre><code>cd tourism-et</code></pre>
+    
+  <li>Install dependencies:</li>
+  <pre><code>npm install</code></pre>
+    
+  <li>Start the development server:</li>
+  <pre><code>npm run dev</code></pre>
