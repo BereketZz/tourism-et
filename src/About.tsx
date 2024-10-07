@@ -19,7 +19,7 @@ const AboutPage = () => {
       {/* Title, Line, Paragraph, and Button Section */}
       <div className="mt-8 sm:mt-12 flex     flex-col lg:flex-row items-center justify-between w-full">
         <div className="flex-[0.8]">
-          <h2 className="text-[#034833] font-bold text-[24px] sm:text-[36px] lg:text-[48px]">
+          <h2 className="text-[#034833] font-bold text-[24px] sm:text-[36px] lg:text-[42px]">
             Developing Confident and Successful Travel
           </h2>
 
@@ -43,7 +43,7 @@ const AboutPage = () => {
 
         {/* Circular Image Div with Box Shadow */}
         <div
-          className="  w-[400px] h-[400px] md:w-[400px] md:h-[400px] lg:w-[532px] lg:h-[507px] rounded-full overflow-hidden mt-8 lg:mt-0 lg:ml-10"
+          className="  w-[400px] h-[400px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden mt-8 lg:mt-0 lg:ml-10"
           style={{ boxShadow: '0px 4px 12px 0px #0000002E' }} // Box shadow applied here
         >
           <img
